@@ -1,0 +1,1 @@
+This will probably slow down a lot with a large number of people. Because the program relies on constantly creating, modifying, and destroying textfiles, it will probably take up a lot of memory. The while loop that counts players in a room may cause slowdowns as the number of players increases, because it is an O(n) function.
